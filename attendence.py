@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-exl = pd.read_excel('attend.xlsx',sheet_name='6th sem')
+exl = pd.read_excel('<path of excel sheet>',sheet_name='<name of sheet>')
 df = pd.DataFrame(exl)
 
 def pred(n):
